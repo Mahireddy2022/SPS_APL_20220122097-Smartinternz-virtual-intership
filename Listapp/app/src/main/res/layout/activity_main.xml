@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/design_default_color_on_primary"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/paper_bag_groceries_milk_bread_fruits_vegetables_cheese_coloring_book_page_bag_groceries_black_white_coloring_book_99801839" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListappRecylerView"
+        android:backgroundTint="@color/design_default_color_background"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:padding="5dp"
+
+        android:text="@string/new_item"
+        android:textColor="#FBC02D"
+        android:textColorHighlight="#5DC661"
+        android:textColorHint="#9C27B0"
+        android:textColorLink="#D61A1A"
+        app:icon="@drawable/ic_baseline_post_add_24"
+        app:iconTint="@color/teal_200" />
+
+</RelativeLayout>
