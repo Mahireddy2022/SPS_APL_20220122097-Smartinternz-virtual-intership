@@ -10,4 +10,4 @@ Project description: A mobile app is built where the user can search for his nea
 
 Technology Used: Android Studio, Web, Kotlin
 
-OUTPUT: image
+
