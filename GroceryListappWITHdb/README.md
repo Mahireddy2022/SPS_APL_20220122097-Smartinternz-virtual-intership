@@ -4,4 +4,3 @@ https://github.com/Mahireddy2022/SPS_APL_20220122097-Smartinternz-virtual-inters
 
 IN THIS APP YOU CAN DELETE,UPDATE,EDIT,SAVE ITEMS IN THE LIST
 
-https://user-images.githubusercontent.com/109082271/192110372-35ed36bd-f364-4176-994e-59737c7abb98.png
